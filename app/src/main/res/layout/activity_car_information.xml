@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarInformation"
+    android:orientation="vertical"
+    android:background="#343AB3B7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Car Information"
+        android:textStyle="bold"
+        android:background="#FF9800"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/b" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="15dp">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BMW"
+                    android:textColor="#FF5722"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Modem 2023 BMW 760"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:$116,400"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Color: Green"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    ></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+<!--        content 2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/c"></ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sport Car"
+                    android:textColor="#FF5722"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Modem 2023 Sport Car 860"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:$200,400"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Color: White"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <!--        content 3-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/r">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rolly Roce"
+                    android:textColor="#FF5722"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Modem 2023 Rolly Roce"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:$500,000"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Color: Dark Blue"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <!--        content 4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/rl2">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rolly Roce King"
+                    android:textColor="#FF5722"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Modem 2020"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price:$800,000"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Color: Red"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:text="Order now"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textStyle="bold"></Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
